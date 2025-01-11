@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1 class=" text-secondary">Login</h1>
-    @component('components.card')
+    @component('fragments.card')
     @endcomponent
 </body>
 </html>
