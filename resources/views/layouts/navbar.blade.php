@@ -14,7 +14,7 @@
     </div>
 
     <div id="login-form" class="  z-50 text-slate-900 flex flex-col gap-4  h-full  w-[340px] px-4 py-4 ">
-        <form action="" class="bg-slate-50 px-4 py-7 ">
+        <form action="" class="bg-slate-50 px-4 py-7 flex justify-center items-center flex-col ">
             <h1 class=" text-center font-bold text-2xl mb-5 ">Login Your Account</h1>
 
             <div class=" flex flex-col gap-4">
@@ -41,9 +41,12 @@
         </form>
     </div>
 
-    <div id="register-form" class="   z-50 text-slate-900 flex flex-col gap-4  h-screen w-screen px-4 py-4 ">
-        <form action="" class="bg-slate-50 px-4 py-7 w-[340px] ">
-            <h1 class=" text-center font-bold text-2xl mb-5 ">Register Your Account</h1>
+    <div id="register-form" class=" bg-slate-50   z-50 text-slate-900 flex flex-col gap-4 bg-opacity-30 h-screen w-full py-4 ">
+        <form action="" class="bg-slate-50 p-4 w-[340px] ">
+            <div id="close_register" class=" cursor-pointer flex justify-end  text-slate-900 font-bold p-2 rounded-full items-center text-center mb-2">
+                <h1>X</h1>
+            </div>
+            <h1 class=" text-center font-bold text-2xl mb-5 " style="{{ env('COLOR_3') }}">Register Form</h1>
 
             <div class=" flex flex-col gap-4">
                 <div class=" flex flex-col gap-2">

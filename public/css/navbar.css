@@ -1,34 +1,44 @@
 #login-form {
+    display: hidden;
     right: -100%;
+    position: fixed;
     top: 20%;
-    position: absolute;
 }
 
 #login-form.active {
+    display: block;
     position: absolute;
     right: 20px;
     top: 70px;
-    transition:  0.2s;
-    -webkit-transition:  0.2s;
-    -moz-transition:  0.2s;
-    -ms-transition:  0.2s;
-    -o-transition:  0.2s;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 #register-form {
-    right: -100%;
-    top: -100%;
-    position: absolute;
+    display: hidden;
+    position: fixed;
+    transition: 0.2s;
+    left: -100%;
+    top: 70px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 #register-form.active {
+    display: flex;
     position: absolute;
-    right: 20px;
-    translate: 50%;
+    justify-content: center;
+    align-items: center;
+    left: 0;
     top: 70px;
-    transition:  0.2s;
-    -webkit-transition:  0.2s;
-    -moz-transition:  0.2s;
-    -ms-transition:  0.2s;
-    -o-transition:  0.2s;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }

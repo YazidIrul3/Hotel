@@ -1,7 +1,7 @@
 import './bootstrap';
 
-const account_div = document.getElementById('account');
+import Alpine from 'alpinejs';
 
-account_div.addEventListener('click', () => {
-    alert('account');
-});
+window.Alpine = Alpine;
+
+Alpine.start();
